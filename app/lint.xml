@@ -5,4 +5,8 @@
     <issue id="AndroidGradlePluginVersion" severity="informational" />
     <issue id="GradleDependency" severity="informational" />
     <issue id="NewerVersionAvailable" severity="informational" />
+    <!-- API 36 is this foundation's explicit compatibility target. The runner's
+         installed SDK inventory must not change the correctness gate. Review
+         target upgrades with platform behavior testing before distribution. -->
+    <issue id="OldTargetApi" severity="informational" />
 </lint>

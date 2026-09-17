@@ -29,7 +29,10 @@ AndroidX-generated app-scoped signature permission for private dynamic receivers
 The build initially found an unescaped local Windows SDK path and a missing plural
 resource; both were fixed before the successful verification above. Dependency-version
 notices remain visible as informational hints because upgrades must be evaluated as
-coherent toolchain changes. Other lint warnings fail the build.
+coherent toolchain changes. The target-SDK upgrade advisory is also informational:
+this foundation explicitly targets API 36, and CI may have newer SDKs installed.
+Before distribution, review the current target requirement and test newer platform
+behavior as an explicit upgrade. Other lint warnings fail the build.
 
 ## Scope and remaining validation
 
