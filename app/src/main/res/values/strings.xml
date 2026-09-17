@@ -11,7 +11,10 @@
     <string name="foundation_label">Phase 1 · Foundation</string>
     <string name="database_loading">Preparing your local database…</string>
     <string name="database_ready">Local database ready</string>
-    <string name="categories_ready">%1$d default categories available. No sample financial data has been added.</string>
+    <plurals name="categories_ready">
+        <item quantity="one">%1$d default category available. No sample financial data has been added.</item>
+        <item quantity="other">%1$d default categories available. No sample financial data has been added.</item>
+    </plurals>
     <string name="dashboard_pending">Your balance dashboard and manual account management will arrive in Phase 2.</string>
     <string name="accounts_pending">Your accounts will live here. Adding, editing, archiving, and adjusting accounts will arrive in Phase 2.</string>
     <string name="transactions_pending">Income, expenses, and transfers will arrive in Phase 3. Search and filters will follow in Phase 4.</string>

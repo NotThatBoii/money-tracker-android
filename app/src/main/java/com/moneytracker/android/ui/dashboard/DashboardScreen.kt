@@ -21,6 +21,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.res.pluralStringResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import com.moneytracker.android.R
@@ -53,7 +54,7 @@ fun DashboardScreen(state: FoundationState, onRetry: () -> Unit, onSettings: () 
                         }
                         is FoundationState.Ready -> {
                             Text(stringResource(R.string.database_ready), style = MaterialTheme.typography.titleMedium)
-                            Text(stringResource(R.string.categories_ready, state.categoryCount))
+                            Text(pluralStringResource(R.plurals.categories_ready, state.categoryCount, state.categoryCount))
                             Text(stringResource(R.string.dashboard_pending), color = MaterialTheme.colorScheme.onSurfaceVariant)
                         }
                         FoundationState.Error -> {

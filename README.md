@@ -33,6 +33,8 @@ Windows: use `gradlew.bat`. Minimum supported Android version: 8.0 / API 26.
 The debug APK is `app/build/outputs/apk/debug/app-debug.apk`. The release build
 is deliberately unsigned; no production signing keys belong in this repository.
 Unit, Room/SQLite, and Compose navigation tests run through Robolectric without an emulator.
+The GitHub Actions workflow runs the same gates and checks for uncommitted Room schema
+changes. See [Phase 1 verification](docs/PHASE_1_VERIFICATION.md) for results and limits.
 
 ## Structure
 
