@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Money Tracker</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_transactions">Transactions</string>
+    <string name="nav_accounts">Accounts</string>
+    <string name="nav_analytics">Analytics</string>
+    <string name="settings">Settings</string>
+    <string name="local_first">PERSONAL · OFFLINE</string>
+    <string name="welcome_title">Your money,\nin one place.</string>
+    <string name="welcome_body">A private space for your accounts, everyday spending, and future plans.</string>
+    <string name="foundation_label">Phase 1 · Foundation</string>
+    <string name="database_loading">Preparing your local database…</string>
+    <string name="database_ready">Local database ready</string>
+    <string name="categories_ready">%1$d default categories available. No sample financial data has been added.</string>
+    <string name="dashboard_pending">Your balance dashboard and manual account management will arrive in Phase 2.</string>
+    <string name="accounts_pending">Your accounts will live here. Adding, editing, archiving, and adjusting accounts will arrive in Phase 2.</string>
+    <string name="transactions_pending">Income, expenses, and transfers will arrive in Phase 3. Search and filters will follow in Phase 4.</string>
+    <string name="analytics_pending">Spending trends, category insights, and account breakdowns will arrive in Phase 5.</string>
+    <string name="database_error">The local database could not be opened. Your data has not been reset.</string>
+    <string name="retry">Try again</string>
+    <string name="privacy_note">No bank connections. No bank credentials. Your records stay on this device.</string>
+    <string name="back_home">Back to Home</string>
+    <string name="appearance_title">Appearance</string>
+    <string name="appearance_body">Light and dark themes follow your device settings.</string>
+    <string name="security_title">Privacy and security</string>
+    <string name="lock_pending">Optional biometric and device-credential app lock is planned for Phase 7.</string>
+</resources>
